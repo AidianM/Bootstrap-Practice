@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=UnifrakturMaguntia&display=swap');
+/*Raleway, Averia Serif Libre, UnifrakturMaguntia*/
+
+
+body{
+    background-color: #222;
+    color: white;
+}
+
+.navbar-brand{
+    filter: invert();
+}
+.icon-cart{
+    filter: invert();
+    box-sizing: content-box;
+    height: 1.2em;
+    padding-top: 5px;
+    /*object-fit: contain;*/
+    
+}
+.jumbotron{
+    background-image: url("/assets/extra/Header.png");
+    background-size: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    font-family: "UnifrakturMaguntia", Arial, Helvetica, sans-serif;
+    background-color: red;
+    /* text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit; */
+    text-shadow: 0 0 10px black, 0 0 10px black;
+    color: white;
+}
+.jumbotron h1{
+    text-align: center;
+    color: #333;
+    font-weight: bolder;
+}
+.jumbotron img{
+    position: relative;
+    width: 50%;
+}
+.mission{
+    color: white;
+    text-align: center;
+    margin: 50px 30% 0 30%;
+    border-bottom: 2px solid #a32219;
+    font-family: "UnifrakturMaguntia";
+    font-size: 2em;
+    text-shadow: 5px 5px 10px #a32219;
+
+}
+.content{
+    margin: 5px 10px;
+}
+/* .quote{
+    margin: 0px 25% 10px 25%;
+    height: 200px;
+    display: flex;
+} */
+
+.quote-text{
+    overflow: scroll;
+    height: 200px;
+    background-color: #333;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* .quotehead{
+    margin: 0 25%;
+    text-align: center;
+    border-bottom: none;
+    padding: 10px;
+} */
+
+.tome {
+    height: 200px;
+}
+
+.footerLogo{
+    font-family: "UnifrakturMaguntia", Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    float: left;
+}
+.footerList{
+    list-style: none;
+    text-decoration: none;
+}
+.footerList li{
+    margin: 0 5px;
+}
+.footerList li a{
+    color: white !important;
+}
+
+.current{
+    border-bottom: 3px solid #a32219;
+}
+
+.show-off{
+    box-shadow: 0 0 10px 5px #a32219;
+    border-radius: 8px;
+    transition: box-shadow .3s ease-in-out;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.mail-demon {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #a32219;
+}
